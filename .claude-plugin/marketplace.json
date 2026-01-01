@@ -1,0 +1,20 @@
+{
+  "name": "claude-haggler-skills",
+  "owner": {
+    "name": "haggler09",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Custom skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "converter-skills",
+      "description": "Collection of document conversion skills",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/md2ipynb"]
+    }
+  ]
+}
