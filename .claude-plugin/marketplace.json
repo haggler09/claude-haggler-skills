@@ -15,6 +15,13 @@
       "source": "./",
       "strict": false,
       "skills": ["./skills/md2ipynb"]
+    },
+    {
+      "name": "data-skills",
+      "description": "Collection of data access and query skills",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/snowflake-query"]
     }
   ]
 }

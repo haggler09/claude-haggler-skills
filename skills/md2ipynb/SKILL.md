@@ -16,7 +16,7 @@ Convert markdown files to Jupyter notebooks with intelligent cell splitting:
 ## Quick Start
 
 ```bash
-python scripts/convert.py input.md output.ipynb
+uvx --with nbformat python scripts/convert.py input.md output.ipynb
 ```
 
 ## Conversion Rules
@@ -58,7 +58,7 @@ Output notebook cells:
 ## CLI Options
 
 ```bash
-python scripts/convert.py <input.md> <output.ipynb> [options]
+uvx --with nbformat python scripts/convert.py <input.md> <output.ipynb> [options]
 
 Options:
   --code-languages  Comma-separated languages for code cells
@@ -74,4 +74,8 @@ Options:
 
 ## Dependencies
 
-- nbformat: `pip install nbformat`
+Run with uvx to automatically handle dependencies:
+
+```bash
+uvx --with nbformat python scripts/convert.py ...
+```

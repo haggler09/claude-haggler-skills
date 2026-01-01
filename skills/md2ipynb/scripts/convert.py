@@ -14,7 +14,7 @@ try:
     import nbformat
     from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 except ImportError:
-    print("Error: nbformat is required. Install with: pip install nbformat", file=sys.stderr)
+    print("Error: nbformat is required. Run with: uvx --with nbformat python scripts/convert.py ...", file=sys.stderr)
     sys.exit(1)
 
 

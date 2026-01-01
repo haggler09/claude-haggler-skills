@@ -1,0 +1,10 @@
+# Claude Code local settings (may contain secrets)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS
+.DS_Store
