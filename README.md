@@ -43,7 +43,7 @@ Converts markdown files to Jupyter notebooks with intelligent cell splitting:
 
 **CLI:**
 ```bash
-python scripts/convert.py input.md output.ipynb
+uvx --with nbformat python scripts/convert.py input.md output.ipynb
 ```
 
 ## Contributing

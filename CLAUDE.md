@@ -108,6 +108,19 @@ Or create a new plugin group if appropriate.
 - Add usage examples in SKILL.md
 - Keep skills focused on a single purpose
 
+## Python Script Execution
+
+Use `uvx` to run Python scripts with automatic dependency management:
+
+```bash
+uvx --with <package> python scripts/<script>.py [args]
+```
+
+Example:
+```bash
+uvx --with nbformat python scripts/convert.py input.md output.ipynb
+```
+
 ## Commit Messages
 
 Use conventional commits:
