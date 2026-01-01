@@ -26,6 +26,14 @@ Collection of document conversion skills.
 |-------|-------------|
 | `md2ipynb` | Convert markdown files to Jupyter notebooks (.ipynb) |
 
+### data-skills
+
+Collection of data access and query skills.
+
+| Skill | Description |
+|-------|-------------|
+| `snowflake-query` | Execute SQL queries against Snowflake data warehouse |
+
 ## Skills Reference
 
 ### md2ipynb
@@ -44,6 +52,24 @@ Converts markdown files to Jupyter notebooks with intelligent cell splitting:
 **CLI:**
 ```bash
 uvx --with nbformat python scripts/convert.py input.md output.ipynb
+```
+
+### snowflake-query
+
+Execute SQL queries against Snowflake with support for multiple authentication methods:
+
+- Password, key-pair, and SSO/OAuth authentication
+- Output formats: JSON, table, CSV
+- Connection parameter overrides (database, schema, warehouse, role)
+
+**Usage:**
+```
+/data-skills:snowflake-query
+```
+
+**CLI:**
+```bash
+uvx --with snowflake-connector-python python scripts/query.py --query "SELECT 1"
 ```
 
 ## Contributing

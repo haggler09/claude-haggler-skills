@@ -86,6 +86,14 @@ Add the skill path to the appropriate plugin in `.claude-plugin/marketplace.json
 
 Or create a new plugin group if appropriate.
 
+### 5. Update README.md
+
+Add the new skill to `README.md`:
+- Add to "Available Plugins" table under the appropriate plugin
+- Add to "Skills Reference" section with usage and CLI examples
+
+**Important:** Always keep README.md in sync when adding or modifying skills.
+
 ## Testing Skills
 
 1. Install the marketplace locally:
