@@ -14,14 +14,16 @@
       "description": "Collection of document conversion skills",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/md2ipynb"]
+      "skills": ["./skills/md2ipynb"],
+      "commands": ["./skills/md2ipynb/commands/"]
     },
     {
       "name": "data-skills",
       "description": "Collection of data access and query skills",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/snowflake-query"]
+      "skills": ["./skills/snowflake-query"],
+      "commands": ["./skills/snowflake-query/commands/"]
     }
   ]
 }
